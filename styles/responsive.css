@@ -1,0 +1,107 @@
+/* Responsive CSS for Mobile Device */
+@media screen and (max-width:576px) {
+    .container{
+        width: 100%;
+    }
+    .primary-btn{
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    /* Navbar CSS */
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .menu li a{
+        padding: 5px 10px;
+    }
+
+    /* Banner CSS */
+    .banner-text{
+        padding: 0 5%;
+        margin-bottom: 20px;
+    }
+    .banner-text h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    /* Quick Features CSS */
+    .quick-features-area{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .quick-features{
+        display: flex;
+        flex-direction: column;
+    }
+    .quick-features-img{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .quick-features-text{
+        width: 100%;
+        padding: 0 20px;
+        padding-right: 0;
+    }
+
+    /* Enjoy Features CSS */
+    .enjoy-features-list{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .badge{
+        left: 50%;
+        bottom: -50px;
+        padding: 20px 35px;
+        transform: translateX(-50%);
+    }
+    .badge h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    /* Some Facts CSS  */
+    .some-facts-title{
+        padding-right: 0%;
+        text-align: center;
+    }
+    .some-facts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .single-fact{
+        margin-top: 30px;
+    }
+
+    /* Sponsors CSS  */
+    .sponsor-titles{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .sponsors-logo{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* Extra Custom Part CSS */
+    .our-service .sec-title{
+        padding: 10px 0%;
+    }
+    .our-service-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
